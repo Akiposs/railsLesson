@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get  "/" => "fileManage#listFile"
+  get  "/uploadFile" => "fileManage#listFile"
+  post "/uploadFileExecution" => "fileManage#uploadFileExecution"
+  get  "/showFile" => "fileManage#showFile"
+  post "/deleteFile" => "fileManage#deleteFile"
 end

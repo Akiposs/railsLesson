@@ -1,16 +1,15 @@
 class FileManageController < ApplicationController
 
+  #ファイル一覧画面用GETアクション
+  def listFile
+  end
+
   #ファイルアップロード画面用GETアクション
   def uploadFile
   end
 
   #ファイルアップロード用POSTアクション
   def uploadFileExecution
-  end
-
-
-  #ファイル一覧画面用GETアクション
-  def listFile
   end
 
   #ファイル内容詳細画面用GETアクション
